@@ -1,0 +1,36 @@
+-----A-----
+
+
+UPDATE OR_ID
+SET Date_ID =  NULL
+GO
+
+SELECT * FROM OR_ID
+GO
+
+-----B-----
+
+UPDATE OR_ID
+SET Date_ID =  2021/01/26
+GO
+
+SELECT * FROM OR_ID
+GO
+
+
+-----C------
+
+UPDATE OR_ID
+SET Tel =  09
+GO
+
+SELECT * FROM OR_ID
+GO
+
+-----D-----
+UPDATE OR_ID
+SET TEL =  +1
+GO
+
+SELECT * FROM OR_ID
+GO

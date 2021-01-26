@@ -1,7 +1,9 @@
 --A--
 SELECT * FROM Customer WHERE Name_order=UPPER('Nguyen Van A') order by Name_order;
-
+GO
 --B--
+
+
 SELECT * FROM Product
 ORDER BY Price DESC
 GO
@@ -18,4 +20,6 @@ go
 
 INSERT INTO SP (Species)
 	SELECT Species FROM Category_one
-	go
+	GO
+
+

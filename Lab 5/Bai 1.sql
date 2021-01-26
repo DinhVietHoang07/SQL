@@ -2,7 +2,6 @@ USE AdventureWorks2019
 GO
 
 CREATE TABLE Product(
-STT int identity,
 Name varchar(100),
 description varchar(50),
 Unit varchar(20),
@@ -13,7 +12,7 @@ GO
 SELECT *FROM Product
 Go
 
-INSERT INTO Product(Name,Description,Unit, Price) values ('May Tinh T450','New','Piece',$1000)
+INSERT INTO Product(Name,Description,Unit, Price) values ('May Tinh T450','New','Piece',C
 INSERT INTO Product(Name,Description,Unit, Price) values ('Dien thoai Nokia5670','Hot','Piece',$400)
 INSERT INTO Product(Name,Description,Unit, Price) values ('May In Samsung 450','Nomar','Piece',$100)
 GO

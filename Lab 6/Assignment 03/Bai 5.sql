@@ -1,0 +1,27 @@
+------A-----
+
+SELECT * FROM OR_ID 
+WHERE Tel like 0123456789
+GO
+
+-----B-----
+
+SELECT * FROM OR_ID
+WHERE Card_ID LIKE 123456789E
+GO
+
+-----C------
+
+SELECT * FROM OR_ID
+WHERE Tel like 0123456789
+GO
+
+-----D-----
+SELECT * FROM OR_ID
+WHERE Date_ID like 12/12/12
+GO
+
+-----D-----
+SELECT * FROM OR_ID
+WHERE description LIKE 'HA NOI'
+GO

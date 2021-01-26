@@ -9,7 +9,9 @@ GO
  SELECT Species FROM Category_one 
  GO
 
-
+ 
  --C--
  SELECT (Name), (Price) FROM Product
  GO
+
+ -----D-----

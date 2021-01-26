@@ -19,8 +19,7 @@ INSERT INTO Temp (Name_Order, Date_order)
 
 --B--
 CREATE TABLE List(
-Species varchar(50)
-
+Name varchar(50)
 )
 Go
 drop table List
@@ -29,8 +28,8 @@ Go
 SELECT *FROM List
 go
 
-INSERT INTO List (Species)
-	SELECT Species FROM Category_one
+INSERT INTO List (Name)
+	SELECT Name FROM Name
 	go
 
 
